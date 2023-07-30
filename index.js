@@ -45,8 +45,6 @@ app.get("/historicoInflacao/reajuste/:inicio/:fim/:valor", (req, res) => {
   let anoInicio = periodo[2];
   let anoFim = periodo[3];
 
-  console.log(mesInicio, mesFim, anoInicio, anoFim);
-
   if (
     mesInicio === 0 ||
     mesFim === 0 ||
