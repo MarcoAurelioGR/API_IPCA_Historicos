@@ -100,6 +100,7 @@ const historicoInflacao = [
     { id: 99, ano: 2023, mes: 3, ipca: 0.71 },
     { id: 100, ano: 2023, mes: 4, ipca: 0.61 },
     { id: 101, ano: 2023, mes: 5, ipca: 0.23 },
+  
   ];
   
   export default historicoInflacao;
